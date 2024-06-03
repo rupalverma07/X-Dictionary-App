@@ -29,7 +29,7 @@ const searchHandler = () =>{
       <h1>Dictionary App</h1>
       <input type='text' value={searchValue} onChange={(e) => setSearchValue(e.target.value)} placeholder='Search for a word..' />
       <button onClick={searchHandler}>Search</button>
-      <h5>Defination:</h5>
+      <h5>Definition:</h5>
         {searchResult && <p>{searchResult.meaning}</p>}
     </div>
   )
